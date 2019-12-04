@@ -33,6 +33,7 @@ RUN pip install -e /detectron2_repo
 
 WORKDIR /detectron2_repo
 
+# RUN apt-get install libcanberra-gtk-module libcanberra-gtk3-module
 # run it, for example:
 # wget http://images.cocodataset.org/val2017/000000439715.jpg -O input.jpg
 # python3 demo/demo.py  \

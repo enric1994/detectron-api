@@ -14,7 +14,7 @@ services:
     # environment:
       # - PYTHONPATH=/data
       # Uncomment the following line to plot images on Linux
-      #- DISPLAY=unix$DISPLAY
+      # - DISPLAY=unix$DISPLAY
       # Set a password to your Jupyter Notebook
       #- PASSWORD=testpass
       
@@ -29,7 +29,7 @@ services:
       #Share the webcam with the container
       #- /dev/video0:/dev/video0
       # Uncomment the following line to plot images on Linux
-      #- /tmp/.X11-unix:/tmp/.X11-unix
+      # - /tmp/.X11-unix:/tmp/.X11-unix
 
 # Uncomment the following line to use an NVIDIA GPU (requires nvidia-docker)
     runtime: nvidia
