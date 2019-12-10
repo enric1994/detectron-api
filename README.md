@@ -2,6 +2,8 @@
 
 Powered by Docker. GPU support
 
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fenric1994%2Fdetectron-api)
+
 ### Input
 <img src="demo_img.jpg" width="40%">
 
@@ -21,7 +23,7 @@ After building the Docker container (it can take a while), the API will start.
 
 You can check the status of the container with: `docker ps -a`
 
-You can also see what's going on inside the container with `docker logs densepose-api -f`
+You can also see what's going on inside the container with `docker logs detectron-api -f`
 
 2. On the main folder run: `python send_file.py` 
 
