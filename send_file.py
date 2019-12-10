@@ -4,13 +4,13 @@
 
 import requests
 
-# Load multiple files
+# Load file
 with open('demo_img.jpg', 'rb') as f:
     contents = f.read()
-    
-    files=dict(img1=contents)
 
-    # Send files and parameters
+    files=dict(img1=contents)
+    
+    # Send file
     response = requests.post('http://localhost:5000/',
         files=files)
 

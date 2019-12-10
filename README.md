@@ -31,6 +31,25 @@ This will send `demo_img.jpg` to the API using the Python requests package.
 
 Feel free to modify the script and add it to your pipeline
 
+```
+import requests
+
+# Load file
+with open('demo_img.jpg', 'rb') as f:
+    contents = f.read()
+
+    files=dict(img1=contents)
+    
+    # Send file
+    response = requests.post('http://localhost:5000/',
+        files=files)
+
+    # Save the received file
+    with open('response_file.png', 'wb') as f:
+        f.write(response.content)
+```
+
+
 Tested on Ubuntu 18.04 with a RTX 2080 Ti GPU (drivers 440.36)
 
 ## Advantages
