@@ -1,4 +1,6 @@
-Human Mask Generator API powered by Docker, made using Facebook's Detectron2 model
+## Human Mask Generator API, made using Facebook's Detectron2 model
+
+Powered by Docker. GPU support
 
 ### Input
 <img src="demo_img.jpg" width="40%">
